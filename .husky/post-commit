@@ -1,0 +1,9 @@
+# #!/usr/bin/env sh
+
+# git submodule foreach --recursive git pull
+# if git diff-index --quiet HEAD --; then
+#     echo "No changes to commit"
+# else
+#     # git commit -am "Update submodules"
+#     # git push
+# fi
