@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prepare": "concurrently \"husky install\" \"git config submodule.recurse true\""
+    "prepare": "concurrently \"husky install\" \"scripts/config-submodule\""
   },
   "keywords": [],
   "author": "",
