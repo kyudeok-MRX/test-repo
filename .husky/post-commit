@@ -1,4 +1,4 @@
-# #!/usr/bin/env sh
+#!/usr/bin/env sh
 
 # git submodule foreach --recursive git pull
 # if git diff-index --quiet HEAD --; then
