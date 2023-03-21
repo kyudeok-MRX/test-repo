@@ -1,0 +1,7 @@
+[submodule "test-subrepo-1"]
+	path = test-subrepo-1
+	url = git@github.com:kyudeok-MRX/test-subrepo-1.git
+
+[submodule "test-subrepo-2"]
+	path = test-subrepo-2
+	url = git@github.com:kyudeok-MRX/test-subrepo-2.git
