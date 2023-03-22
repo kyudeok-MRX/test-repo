@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prepare": "husky install",
     "push": "git push && cd ../ && git push",
     "prepush": "node ../scripts/submodule-pre-push",
     "test": "echo \"subrepo-2 Test\""
@@ -14,8 +13,5 @@
   "license": "ISC",
   "dependencies": {
     "lodash-es": "^4.17.21"
-  },
-  "devDependencies": {
-    "husky": "^8.0.3"
   }
 }

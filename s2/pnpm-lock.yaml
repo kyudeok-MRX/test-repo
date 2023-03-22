@@ -1,24 +1,12 @@
 lockfileVersion: 5.4
 
 specifiers:
-  husky: ^8.0.3
   lodash-es: ^4.17.21
 
 dependencies:
   lodash-es: registry.npmjs.org/lodash-es/4.17.21
 
-devDependencies:
-  husky: registry.npmjs.org/husky/8.0.3
-
 packages:
-
-  registry.npmjs.org/husky/8.0.3:
-    resolution: {integrity: sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/husky/-/husky-8.0.3.tgz}
-    name: husky
-    version: 8.0.3
-    engines: {node: '>=14'}
-    hasBin: true
-    dev: true
 
   registry.npmjs.org/lodash-es/4.17.21:
     resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/lodash-es/-/lodash-es-4.17.21.tgz}
