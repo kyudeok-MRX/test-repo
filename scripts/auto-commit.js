@@ -1,7 +1,9 @@
 import { promiseExec } from "./utils.js";
 
 try {
-  console.log(await promiseExec(`git submodule foreach --recursive git pull`));
+  console.log(
+    await promiseExec(`git submodule foreach --recursive git pull origin main`)
+  );
 
   const diff = await promiseExec(`git diff-index HEAD --`);
 
