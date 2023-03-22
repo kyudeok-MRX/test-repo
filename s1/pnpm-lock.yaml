@@ -1,0 +1,133 @@
+lockfileVersion: 5.4
+
+specifiers:
+  husk: ^0.5.3
+  lodash-es: ^4.17.21
+
+dependencies:
+  lodash-es: registry.npmjs.org/lodash-es/4.17.21
+
+devDependencies:
+  husk: registry.npmjs.org/husk/0.5.3
+
+packages:
+
+  registry.npmjs.org/async-stream-flow/1.0.2:
+    resolution: {integrity: sha512-Iy1ynz7dKRhlvypxRm3zLbPDJsYaeKOQRfxRhZEM3ZZCNq3N0jR/T6KRUJxWVf9AHi5ynj/Wp4L7gATeLGSW9g==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/async-stream-flow/-/async-stream-flow-1.0.2.tgz}
+    name: async-stream-flow
+    version: 1.0.2
+    dependencies:
+      through3: registry.npmjs.org/through3/1.1.7
+    dev: true
+
+  registry.npmjs.org/fs-flow/1.0.2:
+    resolution: {integrity: sha512-AUYZEh7fNmZFHm8w2S4rs0oaJg0l/a8AXLAAFqu/ulmpbPoIxkovrfw/j9GcAYxIc3Oj7eRIibTX82s5+nCtag==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/fs-flow/-/fs-flow-1.0.2.tgz}
+    name: fs-flow
+    version: 1.0.2
+    dependencies:
+      async-stream-flow: registry.npmjs.org/async-stream-flow/1.0.2
+      through3: registry.npmjs.org/through3/1.1.7
+    dev: true
+
+  registry.npmjs.org/husk-async/1.0.3:
+    resolution: {integrity: sha512-VW6/vJKdnhbybdeh4e0ITZ1azI50xmTUrfBSuZhOcTxTOyinJLt1/RsegJXmK+c92MzcOr9WsOJpSt6EZW11xg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/husk-async/-/husk-async-1.0.3.tgz}
+    name: husk-async
+    version: 1.0.3
+    dependencies:
+      async-stream-flow: registry.npmjs.org/async-stream-flow/1.0.2
+    dev: true
+
+  registry.npmjs.org/husk-core/1.0.4:
+    resolution: {integrity: sha512-duZv9ZJFlUt44vwEGLW1HvnzL9kS6AQklydtOYRJ4BT9O9aZ1Aixtt0sBv7b2dTicchYMpSkdJJNVpC8BKT0cA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/husk-core/-/husk-core-1.0.4.tgz}
+    name: husk-core
+    version: 1.0.4
+    dependencies:
+      husk-print: registry.npmjs.org/husk-print/1.0.3
+      husk-through: registry.npmjs.org/husk-through/1.0.2
+    dev: true
+
+  registry.npmjs.org/husk-exec/1.0.4:
+    resolution: {integrity: sha512-eHZH+pYbDGFZXxvvvUhi0Jj8QA4963XpjuYk11ytK/oF2LcLGp9dzng7OUytHa9Y+EucdfGl+7js9Klurwntyw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/husk-exec/-/husk-exec-1.0.4.tgz}
+    name: husk-exec
+    version: 1.0.4
+    dependencies:
+      process-flow: registry.npmjs.org/process-flow/1.0.2
+    dev: true
+
+  registry.npmjs.org/husk-fs/1.0.3:
+    resolution: {integrity: sha512-OizyOaE/FlV/11SOWUOvgBmIvZD3/bGghKQafzNtq4I6VePWZ2kH3q1zuck1cLfhOcYztdVdZaOaRC+rFHOcBg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/husk-fs/-/husk-fs-1.0.3.tgz}
+    name: husk-fs
+    version: 1.0.3
+    dependencies:
+      fs-flow: registry.npmjs.org/fs-flow/1.0.2
+    dev: true
+
+  registry.npmjs.org/husk-print/1.0.3:
+    resolution: {integrity: sha512-paJ8IGpFoS9vKdWHS4tqtiwoF6dX48Il4z1/yP+9ulEwm6RTpC42mkKAj6MtD+CIYAxCLAwYvkTwMqh1Vg/KWg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/husk-print/-/husk-print-1.0.3.tgz}
+    name: husk-print
+    version: 1.0.3
+    dependencies:
+      print-flow: registry.npmjs.org/print-flow/1.0.2
+    dev: true
+
+  registry.npmjs.org/husk-through/1.0.2:
+    resolution: {integrity: sha512-hm0xz/MkfZDxHm0PFm07sb+FuHTHCtPHeXNcBtf0Kl/vKx2hQoliYU1NC5JVjO+fe79z4uCBfI9/l3rFctIFwg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/husk-through/-/husk-through-1.0.2.tgz}
+    name: husk-through
+    version: 1.0.2
+    dependencies:
+      through-flow: registry.npmjs.org/through-flow/1.0.2
+    dev: true
+
+  registry.npmjs.org/husk/0.5.3:
+    resolution: {integrity: sha512-4rLByTytY2LtiuyiRQ20C4AmSZ0+/imh1557r92TFcgAgeTgcsVwHlGLi2nO4QNiEKhvhlPj9HuCjKWfwNtwYA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/husk/-/husk-0.5.3.tgz}
+    name: husk
+    version: 0.5.3
+    dependencies:
+      husk-async: registry.npmjs.org/husk-async/1.0.3
+      husk-core: registry.npmjs.org/husk-core/1.0.4
+      husk-exec: registry.npmjs.org/husk-exec/1.0.4
+      husk-fs: registry.npmjs.org/husk-fs/1.0.3
+      zephyr: registry.npmjs.org/zephyr/1.2.8
+    dev: true
+
+  registry.npmjs.org/lodash-es/4.17.21:
+    resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/lodash-es/-/lodash-es-4.17.21.tgz}
+    name: lodash-es
+    version: 4.17.21
+    dev: false
+
+  registry.npmjs.org/print-flow/1.0.2:
+    resolution: {integrity: sha512-yg5dgWP8pvtV0vWEQNXP47Nwnmt+3gOJg0EgH6mXfrUUlz/fVX7Xkif5gGMiSDMq3QGwswE3RoTlgzSMpRLs1g==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/print-flow/-/print-flow-1.0.2.tgz}
+    name: print-flow
+    version: 1.0.2
+    dependencies:
+      through3: registry.npmjs.org/through3/1.1.7
+    dev: true
+
+  registry.npmjs.org/process-flow/1.0.2:
+    resolution: {integrity: sha512-MJGNN728wtacWIPgp+bsUKwtNX9aKOw2HZVD+jrnZkTMCf4jrhvZnZnEaz6NUHKEy7rEFmz6sVDmz7O2k06xvQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/process-flow/-/process-flow-1.0.2.tgz}
+    name: process-flow
+    version: 1.0.2
+    dependencies:
+      through3: registry.npmjs.org/through3/1.1.7
+    dev: true
+
+  registry.npmjs.org/through-flow/1.0.2:
+    resolution: {integrity: sha512-j6IAxjqlbQAdQ45aQ2qw/TLdOsh3mzsaOtnMnw2ceW6N+zowlQZX3EXLhnqoa6Sz+NUdZdxzAEQhLTXSXHVoNw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/through-flow/-/through-flow-1.0.2.tgz}
+    name: through-flow
+    version: 1.0.2
+    dependencies:
+      through3: registry.npmjs.org/through3/1.1.7
+    dev: true
+
+  registry.npmjs.org/through3/1.1.7:
+    resolution: {integrity: sha512-9bUZXDGridMzC3uqRKw+ilb4n4S0Fo6AQNi9wM9zBYHJpQVsfI4JaroFSACXmDKViL+upDI3+V/io3UwlCTmtA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/through3/-/through3-1.1.7.tgz}
+    name: through3
+    version: 1.1.7
+    dev: true
+
+  registry.npmjs.org/zephyr/1.2.8:
+    resolution: {integrity: sha512-Evw01lEec5dp3gUlyKrCSRlZpcO2FpRq+SgpA1Ha9YgGKY2kFkGh6S3nVgzCagN9HtD//vmET/fQzojiK+NYog==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/zephyr/-/zephyr-1.2.8.tgz}
+    name: zephyr
+    version: 1.2.8
+    dev: true
