@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "prepare": "concurrently \"husky install\" \"sh scripts/config-submodule\""
+    "prepare": "concurrently \"husky install\""
   },
   "keywords": [],
   "author": "",
